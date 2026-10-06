@@ -1,0 +1,35 @@
+{
+  "execution": {
+    "duration_seconds": 28.269,
+    "completed": true
+  },
+  "sources": {
+    "Books to Scrape": {
+      "records_collected": 1000,
+      "pages_attempted": 50,
+      "failed_pages": 0,
+      "records_after_cleaning_validation": 1000,
+      "final_records": 999
+    },
+    "Quotes to Scrape": {
+      "records_collected": 100,
+      "pages_attempted": 10,
+      "failed_pages": 0,
+      "records_after_cleaning_validation": 100,
+      "final_records": 100
+    }
+  },
+  "totals": {
+    "records_collected": 1100,
+    "records_after_cleaning_and_validation": 1100,
+    "records_rejected": 0,
+    "duplicate_records_removed": 1,
+    "final_record_count": 1099
+  },
+  "rejection_reasons": {},
+  "outputs": {
+    "dataset": "output\\final_dataset.csv",
+    "summary": "output\\summary_report.json",
+    "log": "logs\\scraper.log"
+  }
+}

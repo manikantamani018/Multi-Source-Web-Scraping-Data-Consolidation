@@ -1,0 +1,6 @@
+Prepared package; live HTTP execution unavailable in build environment.
+2026-10-06 22:51:42,007 | INFO | pipeline | Starting source: Books to Scrape
+2026-10-06 22:52:04,879 | INFO | pipeline | Finished source: Books to Scrape records=1000
+2026-10-06 22:52:04,879 | INFO | pipeline | Starting source: Quotes to Scrape
+2026-10-06 22:52:10,217 | INFO | pipeline | Finished source: Quotes to Scrape records=100
+2026-10-06 22:52:10,286 | INFO | pipeline | Pipeline complete: final_records=1099 duration=28.269s
